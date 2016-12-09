@@ -96,6 +96,9 @@ public class Class1 {
 		// 我们给这个方法发送一段需要在事务上下文里运行的代码
 		
 		//
+		//
+		//
+		//
 	}
 
 	public static void main(String[] arg) {
