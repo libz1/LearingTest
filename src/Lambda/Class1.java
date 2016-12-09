@@ -94,6 +94,8 @@ public class Class1 {
 		// 3、});
 		// 检查状态同时更新日志的这个策略被抽象出来封装到了runWithinTransaction方法里
 		// 我们给这个方法发送一段需要在事务上下文里运行的代码
+		
+		//
 	}
 
 	public static void main(String[] arg) {
