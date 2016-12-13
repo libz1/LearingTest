@@ -1,4 +1,4 @@
-package Lambda;
+package fpij;
 
 public class Person {
 	private final String name;

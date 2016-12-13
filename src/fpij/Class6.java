@@ -1,4 +1,4 @@
-package Lambda;
+package fpij;
 
 public class Class6 {
 	// 字符串及方法引用  http://www.thinksaas.cn/topics/0/417/417383.html

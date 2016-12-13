@@ -1,4 +1,4 @@
-package Lambda;
+package fpij;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
@@ -8,6 +8,10 @@ import java.util.List;
 
 public class Class1 {
 
+	
+	// Function Programming in Java
+	// https://pragprog.com/book/vsjava8/functional-programming-in-java#author
+		
 	// 源自 http://www.thinksaas.cn/topics/0/417/417390.html
 
 	void Step1() {

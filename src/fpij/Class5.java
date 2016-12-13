@@ -1,4 +1,4 @@
-package Lambda;
+package fpij;
 
 import java.util.Arrays;
 import java.util.List;
