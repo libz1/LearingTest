@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
-public class Class5 {
+public class Class5WithReduce {
 
 	// MapReduce http://www.thinksaas.cn/topics/0/417/417384.html
 
@@ -14,6 +14,11 @@ public class Class5 {
 		// 2003年Google将其发扬光大，运用到分布式系统中进行并行计算后，这个组合的名字才开始在计算机界大放异彩
 
 		List<String> names = Arrays.asList("Brian", "Jackie", "John", "Mike", "Hackie1");
+		
+		names.stream()
+			.sorted()
+			.collect(Collectors.toList())
+			.forEach(System.out::println);
 
 		// 对集合进行归约
 		

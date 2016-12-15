@@ -3,8 +3,14 @@ package fpij;
 public class Person {
 	private final String name;
 	private final int age;
-
+	
+	
 	public Person(final String theName, final int theAge) {
+		name = theName;
+		age = theAge;
+	}
+
+	public Person(final int id, final String theName, final int theAge) {
 		name = theName;
 		age = theAge;
 	}

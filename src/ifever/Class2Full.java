@@ -7,7 +7,7 @@ import java.util.stream.Stream;
 
 import com.google.common.collect.Lists;
 
-public class Class2 {
+public class Class2Full {
 
 	// Stream ，Lambda的好基友
 	

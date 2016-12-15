@@ -11,7 +11,7 @@ import java.util.function.Function;
 import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
-public class Class7 {
+public class Class7WithSortGroup {
 
 	// comparator http://www.thinksaas.cn/topics/0/417/417382.html
 	public static void main(String arg[]) {

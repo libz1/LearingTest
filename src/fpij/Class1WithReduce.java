@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-public class Class1 {
+public class Class1WithReduce {
 
 	
 	// Function Programming in Java
@@ -110,7 +110,7 @@ public class Class1 {
 		// Fun3、轻松实现并发:我们将会在145页《完成并行化的飞跃》中提到
 		// Fun4、讲故事:第8章，使用lambda表达式来构建程序，137页
 		//		需求:拿到所有股票的价格，找出价格大于500块的，计算出能分红的资产总和
-		// 		lumbda:tickers.map(StockUtil::getprice).filter(StockUtil::priceIsLessThan500).sum()
+		// 		lumbda:tickers.map(StockUtil::getprice).filter(VAL -> VAL > 300 ).sum()
 		// Fun5、关注隔离 我们将在63页，使用lambda表达式进行关注隔离中进一步探讨如果通过轻量级函数来创建这种模式以及进行关注隔离
 		//		一个订单处理系统想要对不同的交易来源使用不同的计税策略。把计税和其余的处理逻辑进行隔离会使得代码重用性和扩展性更高
 		// 		在面向对象编程中我们把这个称之为关注隔离，通常用策略模式来解决这个问题。解决方法一般就是创建一些接口和实现类
@@ -124,7 +124,7 @@ public class Class1 {
 	}
 
 	public static void main(String[] arg) {
-		Class1 class1 = new Class1();
+		Class1WithReduce class1 = new Class1WithReduce();
 		class1.Step1();
 		class1.Step2();
 

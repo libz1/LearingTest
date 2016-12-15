@@ -11,6 +11,7 @@ public class Class2 {
 
 	public static void main(String[] args) {
 		
+		// http://www.cnblogs.com/GYoungBean/p/4301557.html
 		// http://www.thinksaas.cn/topics/0/417/417387.html
 
 		final List<String> friends = Arrays.asList("Brian", "Nate", "Neal", "Raju", "Sara", "Scott");
